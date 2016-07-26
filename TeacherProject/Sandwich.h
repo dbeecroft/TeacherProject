@@ -22,6 +22,7 @@ private:
     string name;
 public:
     Sandwich();
+    ~Sandwich();
     void setBreadCount(int breadCount);
     int getBreadCount();
     void setFilling(string filling);

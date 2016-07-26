@@ -21,7 +21,7 @@ Sandwich :: Sandwich()
 
 Sandwich :: ~Sandwich()
 {
-    // Delete all instance of new memory.
+    // Delete all instance of new memory.  
 }
 
 int Sandwich :: getBreadCount()
