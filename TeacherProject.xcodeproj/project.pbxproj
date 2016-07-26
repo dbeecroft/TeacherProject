@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4DCB3F11D47C22B005C611B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DCB3F01D47C22B005C611B /* main.cpp */; };
+		A4DCB3F91D47E20B005C611B /* Sandwich.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DCB3F71D47E20B005C611B /* Sandwich.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A4DCB3ED1D47C22B005C611B /* TeacherProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TeacherProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DCB3F01D47C22B005C611B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4DCB3F71D47E20B005C611B /* Sandwich.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sandwich.cpp; sourceTree = "<group>"; };
+		A4DCB3F81D47E20B005C611B /* Sandwich.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sandwich.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A4DCB3F01D47C22B005C611B /* main.cpp */,
+				A4DCB3F71D47E20B005C611B /* Sandwich.cpp */,
+				A4DCB3F81D47E20B005C611B /* Sandwich.h */,
 			);
 			path = TeacherProject;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DCB3F91D47E20B005C611B /* Sandwich.cpp in Sources */,
 				A4DCB3F11D47C22B005C611B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
