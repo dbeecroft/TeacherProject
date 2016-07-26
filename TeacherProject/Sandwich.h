@@ -6,6 +6,8 @@
 //  Copyright © 2016 Denise Beecroft. All rights reserved.
 //
 
+// define structure
+
 #ifndef Sandwich_h
 #define Sandwich_h
 
@@ -29,3 +31,5 @@ public:
 };
 
 #endif /* Sandwich_h */
+
+// end structure
